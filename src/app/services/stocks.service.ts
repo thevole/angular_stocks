@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
 import {Http} from '@angular/http';
 
-let stocks: Array<string> = ['AAPL', "YHOO", "AMZN", "MSFT"];
+let stocks: Array<string> = ['AAPL', "YHOO", "AMZN", "MSFT", "GOGL", "FB", "TWTR"];
 
-let service: string = 'https://angular2-in-action-api.heroku.com';
+let service: string = 'https://angular2-in-action-api.herokuapp.com';
 
 export interface StockInterface {
   symbol: string;
